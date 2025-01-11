@@ -10,7 +10,7 @@ const stkPush = async () => {
     "https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest";
   const shortcode = process.env.MPESA_SHORTCODE;
   const passkey = process.env.MPESA_PASSKEY;
-  const phoneNumber = "254745574453"; // Replace with actual customer phone number
+  const phoneNumber = "254700000000"; // Replace with actual customer phone number
 
   const body = {
     BusinessShortcode: shortcode,
